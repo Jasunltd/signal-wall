@@ -9,7 +9,10 @@
   },
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "test:browser": "playwright test tests/wall.bdd.spec.mjs"
+    "test:browser": "playwright test tests/wall.bdd.spec.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,10 @@
   },
   "homepage": "https://github.com/Jasunltd/signal-wall#readme",
   "devDependencies": {
-    "@playwright/test": "^1.61.1"
+    "@playwright/test": "^1.61.1",
+    "vite": "^8.1.4"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
   }
 }
