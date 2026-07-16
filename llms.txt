@@ -1,6 +1,6 @@
-# [Project Name]
+# Product Specifications: [Project Name]
 
-> [One-liner from PRODUCT.md]
+> [A brief description of what this product is, why it exists, and the core problem it solves.]
 
 - [SETUP.md](SETUP.md): Quick start and development environment bootstrap
 - [ARCHITECTURE.md](ARCHITECTURE.md): System design, module decomposition, deployment view
