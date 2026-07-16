@@ -3,3 +3,9 @@
 .pi-subagents/
 .test-evidence/
 .env
+
+# Local Netlify folder
+.netlify
+node_modules/
+playwright-report/
+test-results/
