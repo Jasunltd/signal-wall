@@ -1,0 +1,9 @@
+export const channels = Object.freeze([
+  { id: 'night-drive', number: '104', title: 'Night Drive', category: 'Ambient transit', accent: '#f6b34c', status: 'SIGNAL LOCKED', description: 'A warm loop of late-night roads, amber lamps, and electronic calm.', source: 'Prototype fixture', rights: 'Placeholder — no media loaded' },
+  { id: 'archive-hour', number: '208', title: 'Archive Hour', category: 'Public memory', accent: '#8eb7ed', status: 'ARCHIVE WINDOW', description: 'A fiction-only channel format for catalogued public-domain and institutional media.', source: 'Future: reviewed archives', rights: 'Placeholder — provenance required' },
+  { id: 'public-access', number: '311', title: 'Public Access', category: 'Community signal', accent: '#ec78ba', status: 'OPEN STUDIO', description: 'A future space for intentionally shared channel packs and watch rooms.', source: 'Future: shared spaces', rights: 'Prototype only' },
+  { id: 'orbital', number: '416', title: 'Orbital', category: 'Space & science', accent: '#86e1c0', status: 'UPLINK NOMINAL', description: 'An imagined science desk with a rights-aware source card for every future item.', source: 'Future: NASA and institutions', rights: 'Placeholder — review per item' },
+  { id: 'soft-noise', number: '522', title: 'Soft Noise', category: 'Visual radio', accent: '#c3a0ff', status: 'LOW POWER', description: 'Quiet generated color fields for resting between channels.', source: 'Original CSS treatment', rights: 'Original prototype art' },
+  { id: 'matinee', number: '618', title: 'Matinee', category: 'Open culture', accent: '#ff8a6a', status: 'CURTAIN UP', description: 'A future curated lane for works with explicit reuse terms and visible attribution.', source: 'Future: vetted collections', rights: 'Placeholder — no playback' }
+]);
+export const channelById = Object.freeze(Object.fromEntries(channels.map((channel) => [channel.id, channel])));

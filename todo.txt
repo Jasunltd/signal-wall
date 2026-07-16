@@ -1,0 +1,10 @@
+# One todo.txt per project — use tags to categorize within it:
+#   @context  = task domain (e.g. @bug, @feature, @docs, @infra, @debt)
+#   +scope    = subsystem/area (e.g. +api, +db, +ui, +auth)
+#   rec:...   = recurring (daily|weekly|monthly) — nightly-sweep reactivates
+#   due:...   = deadline (YYYY-MM-DD)
+# Priority prefix: (A) critical, (B) blocked, (C) routine — omit for normal
+#
+# Example:
+#   (A) 2026-06-27 Fix login timeout @bug +auth due:2026-06-28
+#   (C) rec:weekly Rotate API keys @infra +security

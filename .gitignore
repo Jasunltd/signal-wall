@@ -1,0 +1,5 @@
+.compare/
+.agent-papercuts/
+.pi-subagents/
+.test-evidence/
+.env

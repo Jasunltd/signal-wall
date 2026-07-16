@@ -1,0 +1,22 @@
+# [Project Name]
+
+> [One-liner from PRODUCT.md]
+
+- [SETUP.md](SETUP.md): Quick start and development environment bootstrap
+- [ARCHITECTURE.md](ARCHITECTURE.md): System design, module decomposition, deployment view
+- [SPEC.md](SPEC.md): Per-feature behavioral specifications and acceptance criteria
+- [API.md](API.md): Public API contract, endpoints, error formats
+- [AUTH.md](AUTH.md): Authentication architecture, token strategy, authorization rules
+- [PLAN.md](PLAN.md): Roadmap, milestones, active workstreams
+- [CONTRIBUTING.md](CONTRIBUTING.md): PR process, commit conventions, setup
+- [SECURITY.md](SECURITY.md): Vulnerability reporting and supported versions
+- [CHANGELOG.md](CHANGELOG.md): Release history and versioning
+- [LICENSE](LICENSE): MIT
+
+## Optional
+
+- [DESIGN.md](DESIGN.md): UI/UX specifications, design tokens, component states
+- [TESTING.md](TESTING.md): Test strategy, evidence capture, mocking guidelines
+- [DEPLOY.md](DEPLOY.md): Deployment environments, CI/CD pipeline, rollback procedures
+- [docs/research/RESEARCH.md](docs/research/RESEARCH.md): Technology evaluations and competitive analysis
+- [docs/adr/](docs/adr/): Architecture Decision Records

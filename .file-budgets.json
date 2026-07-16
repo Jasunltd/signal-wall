@@ -1,0 +1,73 @@
+{
+  "defaults": {
+    "soft": 400,
+    "hard": 500
+  },
+  "rules": [
+    {
+      "pattern": "**/domain/**/*.ts",
+      "soft": 150,
+      "hard": 250
+    },
+    {
+      "pattern": "**/domain/**/*.py",
+      "soft": 150,
+      "hard": 250
+    },
+    {
+      "pattern": "**/entities/**/*.ts",
+      "soft": 150,
+      "hard": 250
+    },
+    {
+      "pattern": "**/application/**/*.ts",
+      "soft": 250,
+      "hard": 350
+    },
+    {
+      "pattern": "**/features/**/*.ts",
+      "soft": 250,
+      "hard": 350
+    },
+    {
+      "pattern": "**/features/**/*.py",
+      "soft": 250,
+      "hard": 350
+    },
+    {
+      "pattern": "**/adapters/**/*.ts",
+      "soft": 350,
+      "hard": 500
+    },
+    {
+      "pattern": "**/widgets/**/*.ts",
+      "soft": 350,
+      "hard": 500
+    },
+    {
+      "pattern": "**/infrastructure/**/*.ts",
+      "soft": 500,
+      "hard": 750
+    },
+    {
+      "pattern": "**/app/**/*.ts",
+      "soft": 500,
+      "hard": 750
+    },
+    {
+      "pattern": "**/*.test.ts",
+      "soft": 200,
+      "hard": 350
+    },
+    {
+      "pattern": "**/*_test.py",
+      "soft": 200,
+      "hard": 350
+    },
+    {
+      "pattern": "**/tests/**/*.py",
+      "soft": 200,
+      "hard": 350
+    }
+  ]
+}
